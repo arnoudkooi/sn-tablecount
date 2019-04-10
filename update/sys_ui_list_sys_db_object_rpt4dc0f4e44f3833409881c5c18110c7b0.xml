@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>label</element>
-            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="81c0f4e44f3833409881c5c18110c7b5">ee1130284f3833409881c5c18110c773</list_id>
+            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="f602f4681b787f00e8c2993d1d4bcbfc">ee1130284f3833409881c5c18110c773</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="81c0f4e44f3833409881c5c18110c7b5">ee1130284f3833409881c5c18110c773</list_id>
+            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="f602f4681b787f00e8c2993d1d4bcbfc">ee1130284f3833409881c5c18110c773</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>super_class</element>
-            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="81c0f4e44f3833409881c5c18110c7b5">ee1130284f3833409881c5c18110c773</list_id>
+            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="f602f4681b787f00e8c2993d1d4bcbfc">ee1130284f3833409881c5c18110c773</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_scope</element>
-            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="81c0f4e44f3833409881c5c18110c7b5">ee1130284f3833409881c5c18110c773</list_id>
+            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="f602f4681b787f00e8c2993d1d4bcbfc">ee1130284f3833409881c5c18110c773</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="81c0f4e44f3833409881c5c18110c7b5">ee1130284f3833409881c5c18110c773</list_id>
+            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="f602f4681b787f00e8c2993d1d4bcbfc">ee1130284f3833409881c5c18110c773</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_by</element>
-            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="81c0f4e44f3833409881c5c18110c7b5">ee1130284f3833409881c5c18110c773</list_id>
+            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="f602f4681b787f00e8c2993d1d4bcbfc">ee1130284f3833409881c5c18110c773</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -103,7 +103,6 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>Arnoud.Kooi</sys_created_by>
             <sys_created_on>2019-04-10 14:25:53</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ee1130284f3833409881c5c18110c773</sys_id>
@@ -111,13 +110,12 @@
             <sys_name>sys_db_object</sys_name>
             <sys_package display_value="TableCount" source="x_snc_tablecount">e129a0ec4ff433409881c5c18110c746</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="TableCount">e129a0ec4ff433409881c5c18110c746</sys_scope>
             <sys_update_name>sys_ui_list_sys_db_object_RPT4dc0f4e44f3833409881c5c18110c7b0</sys_update_name>
             <sys_updated_by>Arnoud.Kooi</sys_updated_by>
             <sys_updated_on>2019-04-10 14:25:53</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt4dc0f4e44f3833409881c5c18110c7b0" name="RPT4dc0f4e44f3833409881c5c18110c7b0">81c0f4e44f3833409881c5c18110c7b5</view>
+            <view display_value="Rpt4dc0f4e44f3833409881c5c18110c7b0" name="RPT4dc0f4e44f3833409881c5c18110c7b0">f602f4681b787f00e8c2993d1d4bcbfc</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

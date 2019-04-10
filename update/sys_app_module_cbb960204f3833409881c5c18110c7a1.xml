@@ -5,28 +5,29 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="sys_db_object">nameSTARTSWITHu_^ORnameSTARTSWITHx_^nameNOT LIKE_cmdb^super_class!=cc65ee37b32113009b67a13816a8dc1a^super_class!=b6b21850db93320059815665dc96195e^super_class!=08ff0014db53320059815665dc961992^super_class!=7c3d0094db13320059815665dc961942^super_class!=e43dcc54db13320059815665dc9619cd^super_class!=7dbc00d0db13320059815665dc961921^super_class!=572d4c54db13320059815665dc9619f9^super_class!=d8630fa54f2203009881c5c18110c708^super_class!=613c0010db13320059815665dc961955^super_class!=4a3c0010db13320059815665dc9619a2^super_class!=f54c4410db13320059815665dc9619d3^super_class!=625c0c10db13320059815665dc961959^super_class!=d0af4890db53320059815665dc9619c4^super_class!=0ffcc814db13320059815665dc961998^super_class!=a6ac8890db13320059815665dc96197a^super_class!=84d11c5cdb53320059815665dc961907^super_class!=bbc1d85cdb53320059815665dc9619b3^super_class!=0921a5014f06ab0035e0fdb28110c78c^super_class!=26f036e8db23320059815665dc961951^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="u_"/>
+        <filter table="sys_db_object">nameSTARTSWITHu_^ORnameSTARTSWITHx_^nameNOT LIKE_cmdb^super_class.name!=scheduled_data_import^super_class.name!=sys_portal_page^super_class.name!=cmn_location^super_class.name!=sf_state_flow^super_class.name!=sys_report_import_table_parent^super_class.name!=cmn_schedule_condition^super_class.name!=sys_auth_profile^super_class.name!=sys_transform_script^super_class.name!=dl_definition^super_class.name!=sys_dictionary^super_class.name!=sys_transform_map^super_class.name!=dl_matcher^super_class.name!=sys_filter^super_class.name!=sys_user_preference^super_class.name!=kb_knowledge^super_class.name!=sys_hub_action_type_base^super_class.name!=sysauto sc_cat_item_delivery_task^super_class.name!=sys_import_set_row^super_class.name!=syslog^super_class.name!=sys_choice^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="u_"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="true" value="x_"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="NOT LIKE" or="false" value="_cmdb"/>
-            <item display_table="sys_db_object" display_value="Location" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="cc65ee37b32113009b67a13816a8dc1a"/>
-            <item display_table="sys_db_object" display_value="Condition Schedule" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="b6b21850db93320059815665dc96195e"/>
-            <item display_table="sys_db_object" display_value="Knowledge" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="08ff0014db53320059815665dc961992"/>
-            <item display_table="sys_db_object" display_value="Import Set Row" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="7c3d0094db13320059815665dc961942"/>
-            <item display_table="sys_db_object" display_value="Table Transform Map" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="e43dcc54db13320059815665dc9619cd"/>
-            <item display_table="sys_db_object" display_value="Authentication Configuration" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="7dbc00d0db13320059815665dc961921"/>
-            <item display_table="sys_db_object" display_value="Scheduled Data Import" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="572d4c54db13320059815665dc9619f9"/>
-            <item display_table="sys_db_object" display_value="Action Type Base" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="d8630fa54f2203009881c5c18110c708"/>
-            <item display_table="sys_db_object" display_value="Dictionary Entry" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="613c0010db13320059815665dc961955"/>
-            <item display_table="sys_db_object" display_value="Choice" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="4a3c0010db13320059815665dc9619a2"/>
-            <item display_table="sys_db_object" display_value="App Log Entry" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="f54c4410db13320059815665dc9619d3"/>
-            <item display_table="sys_db_object" display_value="User Preference" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="625c0c10db13320059815665dc961959"/>
-            <item display_table="sys_db_object" display_value="Filter" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="d0af4890db53320059815665dc9619c4"/>
-            <item display_table="sys_db_object" display_value="Portal Page" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="0ffcc814db13320059815665dc961998"/>
-            <item display_table="sys_db_object" display_value="Scheduled Job" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="a6ac8890db13320059815665dc96197a"/>
-            <item display_table="sys_db_object" display_value="Data Lookup Definitions" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="84d11c5cdb53320059815665dc961907"/>
-            <item display_table="sys_db_object" display_value="Data Lookup Matcher Rules" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="bbc1d85cdb53320059815665dc9619b3"/>
-            <item display_table="sys_db_object" display_value="State Flow" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="0921a5014f06ab0035e0fdb28110c78c"/>
-            <item display_table="sys_db_object" display_value="Import Table Base" endquery="false" field="super_class" goto="false" newquery="false" operator="!=" or="false" value="26f036e8db23320059815665dc961951"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="scheduled_data_import"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sys_portal_page"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="cmn_location"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sf_state_flow"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sys_report_import_table_parent"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="cmn_schedule_condition"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sys_auth_profile"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sys_transform_script"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="dl_definition"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sys_dictionary"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sys_transform_map"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="dl_matcher"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sys_filter"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sys_user_preference"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="kb_knowledge"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sys_hub_action_type_base"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sysauto sc_cat_item_delivery_task"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sys_import_set_row"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="syslog"/>
+            <item endquery="false" field="super_class.name" goto="false" newquery="false" operator="!=" or="false" value="sys_choice"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint>Custom Tables without Madrid Excempt</hint>
@@ -42,27 +43,23 @@
         <query/>
         <report/>
         <roles>admin</roles>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2019-04-10 14:02:00</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cbb960204f3833409881c5c18110c7a1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Custom Tables (No Excempt)</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Custom Tables (No Exempt)</sys_name>
         <sys_overrides/>
         <sys_package display_value="TableCount" source="x_snc_tablecount">e129a0ec4ff433409881c5c18110c746</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TableCount">e129a0ec4ff433409881c5c18110c746</sys_scope>
         <sys_update_name>sys_app_module_cbb960204f3833409881c5c18110c7a1</sys_update_name>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-04-10 14:03:43</sys_updated_on>
+        <sys_updated_by>arnoud.kooi</sys_updated_by>
+        <sys_updated_on>2019-04-10 15:09:32</sys_updated_on>
         <timeline_page/>
-        <title>Custom Tables (No Excempt)</title>
+        <title>Custom Tables (No Exempt)</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
