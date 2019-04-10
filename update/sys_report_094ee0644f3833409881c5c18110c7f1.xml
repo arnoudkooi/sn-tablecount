@@ -29,7 +29,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Arnoud Kooi">7025399bdba92300a63a30d8689619cf</created_by_user>
+        <created_by_user display_value="Arnoud Kooi">8bd7898ddbab32008eab5cd4dc9619ef</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -101,11 +101,13 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2019-04-10 14:13:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>094ee0644f3833409881c5c18110c7f1</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>Total</sys_name>
         <sys_package display_value="TableCount" source="x_snc_tablecount">e129a0ec4ff433409881c5c18110c746</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="TableCount">e129a0ec4ff433409881c5c18110c746</sys_scope>
         <sys_update_name>sys_report_094ee0644f3833409881c5c18110c7f1</sys_update_name>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
@@ -119,6 +121,7 @@
         <type>single_score</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
+        <use_color_palette>false</use_color_palette>
         <use_null_in_trend>false</use_null_in_trend>
         <user>8bd7898ddbab32008eab5cd4dc9619ef</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>
